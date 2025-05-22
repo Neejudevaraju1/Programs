@@ -12,12 +12,12 @@ Student(String name,int roll,Department department,College college){
 	this.college=college;
 }
 void display() {
-System.out.println(Sname);	
-System.out.println(Rollno);
-System.out.println(department.Department);
-System.out.println(department.Dpt_ID);
-System.out.println(department.HOD);
-System.out.println(college.Cname);
+System.out.println("Name of the student is: "+Sname);	
+System.out.println("Roll no of the student is: "+Rollno);
+System.out.println("Department of the student is : "+department.Department);
+System.out.println("Department id is: "+department.Dpt_ID);
+System.out.println("HOD of the department is: "+department.HOD);
+System.out.println("college name is : "+college.Cname);
 System.out.println(college.Place);	
 }
 }
