@@ -7,6 +7,7 @@ public class EmplyeeMain {
 PartTimeEmployee e2 = new PartTimeEmployee("jishnu",2000,90);
 e1.display();
 e2.display();
+
 	}
 
 }

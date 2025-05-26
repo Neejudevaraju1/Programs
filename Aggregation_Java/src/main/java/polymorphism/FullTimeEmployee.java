@@ -7,6 +7,7 @@ FullTimeEmployee(String name,double salary) {
 	this.monthlySalary=salary;
 }
 double calculateSalary() {
+	
 	return monthlySalary;
 }
 }
