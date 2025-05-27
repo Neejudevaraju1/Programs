@@ -9,5 +9,4 @@ CreditCard(double amount,String cardno){
 void processPayment() {
 	System.out.println("payment of amount "+amount +" is paid from credit card no: "+creditCard);
 }
-
 }
