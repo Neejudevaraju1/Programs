@@ -2,7 +2,7 @@ package Bank;
 
 import java.util.Scanner;
 
-public class Withdrawals {
+public class Withdrawals  extends Deposit{
 	
 	static String value;
 	static int withdraw;
@@ -35,10 +35,10 @@ public class Withdrawals {
     }
     public void newdetails() {
     	AccntDetails a1=new AccntDetails();
-    	a1.setData(AccntVerify.accntnumber, remainingBalance, AccntVerify.username);
-    	System.out.println(a1.getaccntNo());
-        System.out.println(a1.getaccntBalance());
-        System.out.println(a1.getuserName());
+    	setData(AccntVerify.accntnumber, remainingBalance, AccntVerify.username);
+    	System.out.println(getaccntNo());
+        System.out.println(getaccntBalance());
+        System.out.println(getuserName());
     }
   
     }

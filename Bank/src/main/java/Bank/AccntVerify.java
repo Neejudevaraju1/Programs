@@ -2,15 +2,12 @@ package Bank;
 
 import java.util.Scanner;
 
-public class AccntVerify extends Deposit  {
+public class AccntVerify extends Withdrawals  {
 	static int total;
 	static int balance;
 	static int accntnumber;
 	static String username;
 	public void verify() {
-		AccntVerify a2=new AccntVerify();
-		AccntDetails a1= new AccntDetails();
-		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Please enter the account number to verify.......");
 		int accnt=sc.nextInt();
@@ -37,7 +34,7 @@ public class AccntVerify extends Deposit  {
 		a2.verify();
 		a2.Deposit();
 		a2.set_data();
-		
+	
 		 w.withdrawals();
 		 w.newdetails();
 	  
